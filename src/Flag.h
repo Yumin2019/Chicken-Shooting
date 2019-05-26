@@ -1,0 +1,134 @@
+#pragma once
+
+enum WAVE_TYPE
+{
+	WT_NONE,
+	WT_FIRST,
+	WT_SECOND
+};
+
+
+enum PANEL_TYPE
+{
+	PT_PLAYER_HPBAR,
+	PT_BOSS_HPBAR,
+	PT_SKILL_COOLDOWN_A,
+	PT_SKILL_COOLDOWN_S,
+	PT_SKILL_COOLDOWN_D,
+	PT_SKILL_COOLDOWN_R,
+	PT_IMAGE,
+	PT_ATTACK_LV,
+	PT_SPEED_LV,
+	PT_NONE
+};
+
+
+enum CHANGE_SCENE
+{
+	CS_NONE,
+	CS_CHANGE
+};
+
+
+enum SCENE_CLIP
+{
+	SC_NONE,
+	SC_CURRENT,
+	SC_NEXT
+};
+
+
+enum BUTTON_STATE
+{
+	BS_NONE,
+	BS_MOUSEON,
+	BS_CLICK
+};
+
+enum BUTTON_WHAT
+{
+	BW_NONE,
+	BW_START,
+	BW_QUIT,
+	BW_RETRY,
+	BW_HOME
+};
+
+enum SCENE_INFORM
+{
+	SI_MAIN,
+	SI_INGAME,
+	SI_END
+};
+
+
+enum ITEM_TYPE
+{
+	IT_NONE,
+	IT_BOMB,
+	IT_PORTION,
+	IT_SHIELD,
+	IT_REDRUBY,
+	IT_BLUERUBY,
+	IT_BLUEMARBLE,
+	IT_PINKMARBLE
+};
+
+enum ANIMATION_OPTION
+{
+	AO_LOOP,
+	AO_ONCE_RETURN, // 1 번
+	AO_ONCE_DESTROY,
+	AO_TIME_RETURN, // TIME
+	AO_TIME_DESTROY
+};
+
+
+
+enum BULLET_TYPE
+{
+	BT_NONE,
+	BT_MONSTER,
+
+
+	BT_BOSS_NORMAL, // 보스 기본 공격
+	BT_BOSS_SPECIAL1PREV,
+	BT_BOSS_SPECIAL2PREV,
+
+
+	BT_BOSS_SPECIAL1_1, // 보스 스페셜공격 1
+	BT_BOSS_SPECIAL1_2,
+	BT_BOSS_SPECIAL1_3,
+
+
+	BT_BOSS_SPECIAL2_1, // 보스 스페셜공격 2
+	BT_BOSS_SPECIAL2_2,
+
+
+	BT_PLAYER_BOMB,    // 플레이어 폭탄.
+	BT_PLAYER_SHIELD, // 플레이어 쉴드.
+
+	BT_PLAYER_NORMAL, // 기본적인 총알의 처리
+	BT_PLAYER_MISAIL, // 미사일 대기 상태
+
+	BT_PLAYER_ATTACKPREV, // 기본 공격의 대기 상태
+	BT_PLAYER_ATTACK, // 기본 공격 
+
+	BT_EFFECT, // 일반적인 Effect로 움직이지 않는다.
+	BT_EFFECT_PLAYER, // 플레이어를 기준으로 이동하는 Effect이다.
+
+	BT_ITEM
+};
+
+enum STAND_DIRECTION
+{
+	SD_RIGHT,
+	SD_LEFT,
+	SD_NONE
+};
+
+enum SHAPE_TYPE
+{
+	ST_CIRCLE,
+	ST_RECT
+};
