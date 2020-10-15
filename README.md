@@ -14,8 +14,15 @@
    비고 :
   Chicken Shooting 창작
 
+조작방법 
+방향키 : 이동
+A : charging 공격
+S : 쉴드
+D : 미사일
+R : 번개
+F1 : Collider ON/OFF
+Ctrl + Shift + 1 : 치트키 (체력, 방패, 번개)
 
-  
  
  
   
