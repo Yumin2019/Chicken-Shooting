@@ -1,78 +1,40 @@
 # Chicken-Shooting
+![image](https://user-images.githubusercontent.com/49779139/143724106-2e4761ab-75c0-421d-857b-c29a6bbe2642.png)
 
-
-
+Genre: Shooting 
  
- 
+Move: ←↑→↓ / A : charging / S : shield / D : missile
+
+R : thunder(powerful attack) / F1 : Collider ON/OFF(visibility)
+
+Ctrl + Shift + 1: Cheat(health, shield item, thunder item)
+
+Work Time: 2019.02(17 days)
+
+IDE: Visual Studio 2017
+
+Youtube: https://youtu.be/Njz4IGjs0IQ
   
-   장르
-  : 탄막
-  슈팅
+Blog: https://blog.naver.com/lmj3322/221468214847
 
+## MIT License
 
-  
-   비고 :
-  Chicken Shooting 창작
+Copyright (c) 2021 Yumin Kim
 
-조작방법 
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-방향키 : 이동
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-A : charging 공격
-
-S : 쉴드
-
-D : 미사일
-
-R : 번개
-
-F1 : Collider ON/OFF
-
-Ctrl + Shift + 1 : 치트키 (체력, 방패, 번개)
-
- 
- 
-  
-  개발
-  기간 : 2019년
-  2월(17일)
-
-
-  
-  개발
-  인원 : 1명
-
-
-  
-  개발
-  환경 : Visual Studio 2017
-
-
-  
-  사용
-  기술 : C++, WinAPI
-
-
-  
- 
- 
- 
- 
-  
-  유튜브
-  : 
-  https://youtu.be/Njz4IGjs0IQ
-
-
-  
-  블로그
-  :
-  https://blog.naver.com/lmj3322/221468214847
-
-
-  
- 
-
-
-
-
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
